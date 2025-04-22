@@ -1,76 +1,107 @@
-# Financial Sentiment Analysis System
+# Finance Sentiment Analysis - NLP
 
-This project provides a machine learning-based sentiment analysis system specifically designed for financial texts. It uses the FinBERT model, which is pre-trained on financial texts, to analyze sentiment in financial news, reports, and social media content.
+This project aims to analyze financial news articles, reports, and social media content to determine the overall sentiment (positive, negative, or neutral) surrounding specific companies, industries, or financial markets. It uses Natural Language Processing (NLP) techniques to process and analyze the text data, providing insights into market sentiments.
+
+## Tech Stack
+
+- Python
+- Natural Language Processing (NLP)
+- scikit-learn
+- NLTK / SpaCy
+- Pandas
+- Matplotlib
+- Flask (for backend, if applicable)
+- React (for frontend, if applicable)
 
 ## Features
 
-- Real-time sentiment analysis of financial texts
-- Batch processing of multiple texts
-- Integration with Yahoo Finance API for stock news analysis
-- RESTful API for easy integration
-- Preprocessing pipeline optimized for financial texts
+- **Sentiment Classification**: Classifies financial text as positive, negative, or neutral.
+- **Data Visualization**: Displays sentiment trends over time.
+- **Real-time Sentiment Analysis**: Process and analyze financial data from various sources.
+- **Interactive Web Interface** (if applicable): Provides a user-friendly platform to interact with the analysis results.
 
-## Setup
+## Installation
 
-1. Clone the repository
-2. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+This guide will help you set up and run the **Finance Sentiment Analysis** project, which consists of a **React frontend** and **Flask backend**. 
 
-3. Start the backend server:
-   ```bash
-   cd backend
-   python app.py
-   ```
+### ✅ *Step-by-Step Guide to Run the Project*
 
-The API will be available at `http://localhost:5000`
+#### 🗂 1. *Unzip the Project*
+- Locate the `.zip` file you downloaded.
+- *Right-click → Extract All* or use any unzip tool.
+- You’ll now have a folder containing:
+  - `frontend/` (React project)
+  - `backend/` (Flask project)
 
-## API Endpoints
+---
 
-### Analyze Single Text
-- **Endpoint**: `/analyze`
-- **Method**: POST
-- **Request Body**:
-  ```json
-  {
-    "text": "Your financial text here"
-  }
-  ```
-- **Response**:
-  ```json
-  {
-    "sentiment": "positive/negative/neutral",
-    "confidence": 0.95
-  }
-  ```
+#### 💻 2. *Open the Project in VS Code*
+- Open *VS Code*.
+- Go to *File → Open Folder...*
+- Select the unzipped project folder (the one that contains both `frontend` and `backend`).
 
-### Analyze Multiple Texts
-- **Endpoint**: `/analyze_batch`
-- **Method**: POST
-- **Request Body**:
-  ```json
-  {
-    "texts": ["Text 1", "Text 2", "Text 3"]
-  }
-  ```
+---
 
-### Get Stock News with Sentiment
-- **Endpoint**: `/stock_news`
-- **Method**: GET
-- **Query Parameter**: `symbol` (e.g., AAPL, GOOGL)
-- **Example**: `/stock_news?symbol=AAPL`
+#### 🌐 3. *Install Frontend Dependencies*
+- Open a *new terminal* in VS Code.
+- Navigate to the `frontend` folder:
 
-## Technologies Used
+  ```bash
+  cd frontend
+  npm install
 
-- Python
-- Flask
-- Transformers (FinBERT)
-- NLTK
-- yfinance
-- Pandas
-- NumPy
+4. Set Up Python Backend
 
-## License
+    Open a new terminal (or split the existing one).
 
-MIT License 
+    Navigate to the backend folder:
+
+cd ../backend
+
+Create a virtual environment:
+
+python -m venv venv
+
+Activate the virtual environment:
+
+    On Windows:
+
+venv\Scripts\activate
+
+On macOS/Linux:
+
+        source venv/bin/activate
+
+📦 5. Install Backend Requirements
+
+    Ensure you are in the backend directory and the virtual environment is activated.
+
+    Install the required Python packages:
+
+    pip install -r requirements.txt
+
+🚀 6. Run the Python Backend
+
+    While still in the backend directory:
+
+python app.py
+
+You should see the following message:
+
+    Running on http://127.0.0.1:5000
+
+🌍 7. Run the Frontend React App
+
+    Go back to the terminal where the frontend is set up (or open a new one).
+
+    Navigate to the frontend directory:
+
+cd frontend
+
+Start the React app:
+
+    npm start
+
+    The React app will open in your browser (usually on http://localhost:3000).
+
+
