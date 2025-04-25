@@ -107,5 +107,5 @@ Start the React app:
 ## 🔗 Connect with Team
 - **LinkedIn**:(https://www.linkedin.com/in/mailapalli-jahnavi/)
 - **LinkedIn**:(https://www.linkedin.com/in/seeram-murali-ganesh-9a6b62258/)
-- **GitHub**:(https://github.com/Murali4723)
+- **GitHub**:[Murali Ganesh Seeram](https://github.com/Murali4723)
 - **GitHub**:[Jahnavi Mailapalli](https://github.com/jahnavimailapalli)
