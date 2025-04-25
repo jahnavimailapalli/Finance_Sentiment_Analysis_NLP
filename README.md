@@ -104,6 +104,8 @@ Start the React app:
 
     The React app will open in your browser (usually on http://localhost:3000).
 
-## 🔗 Connect with Me
+## 🔗 Connect with Team
+- **LinkedIn**:(https://www.linkedin.com/in/mailapalli-jahnavi/)
 - **LinkedIn**:(https://www.linkedin.com/in/seeram-murali-ganesh-9a6b62258/)
+- **GitHub**:(https://github.com/Murali4723)
 - **GitHub**:(https://github.com/Murali4723)
